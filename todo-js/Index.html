@@ -1,0 +1,27 @@
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="todo.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="todo.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="row input-container">
+            <h3 class="header-field">WORK TO-DOS</h3>
+            <h4 class="new-field">Enter text into input fields add items to your list</h4>
+            <h4 class="completed-field">Click the item to mark it as complete</h4>
+            <h4 class="remove-field">Click "X" to remove item from your list</h4>
+            <input class="form-cotrol inp-item" placeholder="New Item..." id="inp-item" onkeydown="keyDownFunction(event)" />
+        </div>
+        <div class="item-container" id="item-container">
+
+        </div>
+    </div>
+    
+</body>
+</html>

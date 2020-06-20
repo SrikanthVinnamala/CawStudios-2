@@ -1,0 +1,40 @@
+﻿body {
+    background-color: #00a3c0;
+}
+.remove-item {
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+
+.input-container {
+    text-align: center;
+}
+
+.header-field {
+    font-size: xx-large;
+    font-family: fantasy;
+}
+
+.new-field {
+    color: #dcdc11;
+}
+
+.completed-field {
+    color: green;
+}
+
+.remove-field {
+    color: gray;
+}
+
+.inp-item {
+    width: 50%;
+}
+
+.item-container {
+    margin-top: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
